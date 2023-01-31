@@ -1,0 +1,24 @@
+{
+  "name": "usaf-html-checkpoint",
+  "version": "1.0.0",
+  "description": "Demonstrate html knowledge by making a high-fidelity representation of the GMDB website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    start: "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackek/usaf-html-checkpoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackek/usaf-html-checkpoint/issues"
+  },
+  "homepage": "https://github.com/hackek/usaf-html-checkpoint#readme",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}

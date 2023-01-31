@@ -1,0 +1,49 @@
+/* Factors in padding to all class size calculations */
+* {
+  box-sizing: border-box;
+  padding: 6px;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.company {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.840);
+  color: white;
+}
+
+.login {
+  font-weight: normal;
+}
+
+.search {
+  float: right;
+  vertical-align: middle;
+  align-items: center;
+  background-color: transparent;
+  color: rgba(255, 187, 0, 0.691);
+  border-color: rgba(255, 187, 0, 0.691);
+  border-radius: 5px;
+  padding: 4px;
+  border-width: thin;
+}
+
+.searchbar {
+  margin-right: 5px;
+  float: right;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.searchbar:focus {
+  outline: 1px ridge cyan;
+}
+
